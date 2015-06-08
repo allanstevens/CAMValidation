@@ -1,0 +1,56 @@
+<p:ProcessRepairOrder 
+	xmlns:p="http://www.starstandard.org/STAR/5" 
+	xmlns:p4="http://www.openapplications.org/oagis/9" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" releaseID="5.3.2" 
+	xsi:schemaLocation="http://www.starstandard.org/STAR/5">
+  <p:ApplicationArea>
+    <p:Sender>
+      <p:CreatorNameCode>CNV</p:CreatorNameCode>
+      <p:SenderNameCode>SNC</p:SenderNameCode>
+    </p:Sender>
+    <p:CreationDateTime>2001-12-31T12:00:00</p:CreationDateTime>
+    <p:Destination />
+  </p:ApplicationArea>
+  <p:ProcessRepairOrderDataArea>
+    <p:Process />
+    <p:RepairOrder>
+      <p:RepairOrderHeader>
+        <p:DocumentIdentificationGroup>
+          <p:DocumentIdentification>
+            <p:DocumentID>100</p:DocumentID>
+          </p:DocumentIdentification>
+        </p:DocumentIdentificationGroup>
+        <p:OwnerParty>
+          <p:SpecifiedPerson>
+            <p:GivenName>John</p:GivenName>
+            <p:FamilyName>Wayne</p:FamilyName>
+            <p:Salutation>Mr.</p:Salutation>
+            <p:ResidenceAddress>
+              <p:LineOne>100 Moon Drive 100 Moon Drive 100 Moon Drive 100 Moon Drive 100 Moon Drive 100 Moon Drive</p:LineOne>
+              <p:LineTwo>APT # 100</p:LineTwo>
+              <p:CityName>MALIBU</p:CityName>
+              <p:CountryID>US</p:CountryID>
+              <p:Postcode>99999</p:Postcode>
+              <p:StateOrProvinceCountrySub-DivisionID>CA</p:StateOrProvinceCountrySub-DivisionID>
+            </p:ResidenceAddress>
+            <p:TelephoneCommunication>
+              <p:ChannelCode>Day</p:ChannelCode>
+              <p:CompleteNumber>1234567890</p:CompleteNumber>
+            </p:TelephoneCommunication>
+            <p:FaxCommunication>
+              <p:CompleteNumber>9012345678</p:CompleteNumber>
+            </p:FaxCommunication>
+            <p:URICommunication>
+              <p:URIID>abc@yahoo.com</p:URIID>
+            </p:URICommunication>
+          </p:SpecifiedPerson>
+        </p:OwnerParty>
+        <p:RepairOrderVehicleLineItem>
+          <p:Vehicle>
+            <p:VehicleID>12345678901234567</p:VehicleID>
+          </p:Vehicle>
+        </p:RepairOrderVehicleLineItem>
+      </p:RepairOrderHeader>
+    </p:RepairOrder>
+  </p:ProcessRepairOrderDataArea>
+</p:ProcessRepairOrder>
