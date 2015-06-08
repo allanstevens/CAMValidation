@@ -1,4 +1,4 @@
-﻿﻿# .NET CAM Validation Library
+# .NET CAM Validation Library
 
 Content Assembly Mechanism (CAM) is an XML-based standard for validation. Much like XSD, but much more powerful. CAM is a product of the OASIS Content Assembly Technical Committee.
 
